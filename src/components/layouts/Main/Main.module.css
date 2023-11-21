@@ -1,0 +1,12 @@
+.main {
+	width: 100%;
+	height: calc(100vh - 140px);
+	padding: 10px 0 56px 0;
+}
+
+@media (max-width: 700px) {
+	.main {
+		padding: 10px 0 138px 0;
+		height: calc(100vh - 80px);
+	}
+}
